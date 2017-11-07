@@ -1,0 +1,65 @@
+/* 尾部css======================*/
+
+.footer {
+    width: 100%;
+    position: absolute;
+    height: 230px;
+    background: url(../yjs_img/bottom_bg.png) no-repeat center bottom;
+    bottom: 0;
+}
+
+
+/* 图片中间的盒子 */
+
+.footer_Center {
+    width: 930px;
+    height: 180px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+
+/* 浮动 */
+
+.footer .footer_Center_left {
+    float: left;
+}
+
+.footer .footer_Center_right {
+    float: right;
+}
+
+
+/* 尾部一些字体 */
+
+.footer_Center .footer_Center_left {
+    line-height: 13px;
+    color: #ffffff;
+}
+
+.footer_Center .footer_Center_left h4 {
+    font-size: 16px;
+}
+
+.footer_Center .footer_Center_left p {
+    font-size: 13px;
+}
+
+.footer_Center .footer_Center_right p {
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+
+/* 字体变化 */
+
+.footer_Center .footer_Center_left {
+    font-family: "microsoft yahei";
+}
+
+.footer_Center .footer_Center_right {
+    font-family: "microsoft yahei";
+}

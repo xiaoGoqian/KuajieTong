@@ -1,0 +1,254 @@
+/*覆盖bootstrap一些东西开始*/
+
+@media (min-width: 1200px) {
+    #container {
+        width: 980px;
+    }
+}
+
+
+/*覆盖bootstrap一些东西结束*/
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.best_top {
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+    font-size: 13px;
+    line-height: 26px;
+    color: #7c7c7c;
+    font-family: "microsoft yahei";
+}
+
+.best_top span:last-child {
+    float: right;
+}
+
+
+/* 通用样式 */
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* ------------------------- */
+
+
+/*二级图*/
+
+.small_banner {
+    height: 250px;
+    width: 100%;
+    background: #aaaa00;
+}
+
+.small_banner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*内容区域=======================================*/
+
+#content {
+    padding-bottom: 250px;
+}
+
+.content-section {
+    padding: 20px 0;
+}
+
+
+/*内容盒子的左侧*/
+
+.left_container_One {
+    width: 180px;
+}
+
+.left_container_One h5 {
+    text-align: center;
+    height: 43px;
+    background: #085eaa;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 43px;
+    margin-bottom: 0;
+    font-family: "microsoft yahei"
+}
+
+.left_container_One ul li {
+    height: 34px;
+    width: 100%;
+    line-height: 34px;
+    text-align: center;
+    font-family: "microsoft yahei";
+}
+
+.left_container_One ul li:hover a {
+    background: #0051a5;
+    color: #ffffff;
+}
+
+.left_container_One .left_Nav a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+}
+
+
+/*左侧最后一个玉井水*/
+
+.yujing_text {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #ffffff;
+    text-align: center;
+    border-top: 1px solid #e5e4e2;
+    color: #7a7a7a;
+    font-family: "microsoft yahei";
+}
+
+.left_container_One .yujing_text a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+}
+
+.left_container_One .yujing_text a:hover {
+    background: #0051a5;
+    color: #ffffff;
+}
+
+
+/*内容盒子的右侧*/
+
+.right_container_One {
+    width: 730px;
+}
+
+.right_container_One .container_R_top {
+    height: 58px;
+    border-bottom: 2px solid #7ea9d3;
+}
+
+
+/* a字体变动 */
+
+.right_container_One .container_R_top ul li a {
+    color: #484848;
+    text-decoration: none;
+}
+
+.right_container_One .container_R_top ul li {
+    font-family: "microsoft yahei";
+}
+
+
+/* 浮动 */
+
+.container_R_top h2 {
+    float: left;
+    line-height: 14px;
+    color: #006795;
+    font-family: "microsoft yahei";
+}
+
+.container_R_top ul {
+    float: right;
+}
+
+.container_R_top ul li {
+    float: left;
+    line-height: 58px;
+    color: #333333;
+}
+
+
+/*右侧bottom内容部分*/
+
+.right_container_bottom {
+    width: 730px;
+    margin-top: 14px;
+}
+
+.right_container_bottom ul li {
+    display: block;
+    margin: 0 2px;
+}
+
+
+/*微调*/
+
+.right_container_bottom .productTwo {
+    margin-left: 7px;
+}
+
+.right_container_bottom .productThree {
+    margin-left: 6px;
+}
+
+.right_container_bottom .content_R_bottom_right .productFore {
+    margin-top: 8px;
+}
+
+.content_R_bottom_right .productFive {
+    position: relative;
+    border: 1px solid #e5e4e2;
+    height: 151px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.content_R_bottom_right .productFive img {
+    height: 148px;
+}
+
+
+/* 最后一个新品框 */
+
+.content_R_bottom_right .productSix {
+    height: 150px;
+    width: 187px;
+    text-align: center;
+    line-height: 24px;
+    border: 1px solid #e5e4e2;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.content_R_bottom_right .productSix div {
+    margin: 52px auto;
+}
+
+.productSix h4 {
+    color: #00468c;
+    font-family: "microsoft yahei";
+    font-weight: 800;
+}
+
+
+/* 底部距离增加 */
+
+#footer_Product {
+    margin-top: 70px;
+}
+
+.right_container_bottom .productSix a {
+    text-decoration: none;
+}

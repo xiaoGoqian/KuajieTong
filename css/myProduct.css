@@ -1,0 +1,209 @@
+/*覆盖bootstrap一些东西开始*/
+
+@media (min-width: 1200px) {
+    #container {
+        width: 980px;
+    }
+}
+
+
+/*覆盖bootstrap一些东西结束*/
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.best_top {
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+    font-size: 13px;
+    line-height: 26px;
+    color: #7c7c7c;
+    font-family: "microsoft yahei";
+}
+
+.best_top span:last-child {
+    float: right;
+}
+
+
+/*二级图*/
+
+.small_banner {
+    height: 250px;
+    width: 100%;
+    background: #aaaa00;
+}
+
+.small_banner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*内容区域=======================================*/
+
+#content {
+    padding-bottom: 250px;
+}
+
+.content-section {
+    padding: 20px 0;
+}
+
+
+/*内容盒子的左侧*/
+
+.left_container_One {
+    width: 180px;
+}
+
+.left_container_One h5 {
+    text-align: center;
+    height: 43px;
+    background: #085eaa;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 43px;
+    margin-bottom: 0;
+    font-family: "microsoft yahei"
+}
+
+.left_container_One ul li {
+    height: 34px;
+    width: 100%;
+    line-height: 34px;
+    text-align: center;
+}
+
+.left_container_One ul li:hover a {
+    background: #0051a5;
+    color: #ffffff;
+}
+
+.left_container_One .left_Nav a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    font-family: "microsoft yahei"
+}
+
+
+/*左侧最后一个玉井水*/
+
+.yujing_text {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #ffffff;
+    text-align: center;
+    border-top: 1px solid #e5e4e2;
+    color: #7a7a7a;
+    font-family: "microsoft yahei"
+}
+
+.left_container_One .yujing_text a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+}
+
+.left_container_One .yujing_text a:hover {
+    background: #0051a5;
+    color: #ffffff;
+}
+
+
+/*内容盒子的右侧*/
+
+.right_container_One {
+    width: 730px;
+}
+
+.right_container_One .container_R_top {
+    height: 58px;
+    border-bottom: 2px solid #7ea9d3;
+}
+
+
+/* 去掉a默认 */
+
+.right_container_One .container_R_top ul li a {
+    color: #484848;
+    text-decoration: none;
+}
+
+
+/* 浮动 */
+
+.container_R_top h2 {
+    float: left;
+    line-height: 14px;
+    color: #006795;
+    font-family: "microsoft yahei"
+}
+
+.container_R_top ul {
+    float: right;
+}
+
+.container_R_top ul li {
+    float: left;
+    line-height: 58px;
+    color: #333333;
+    font-family: "microsoft yahei"
+}
+
+
+/*右侧bottom内容部分*/
+
+.right_container_bottom {
+    width: 730px;
+    margin-top: 20px;
+}
+
+
+/*图片和文字部分*/
+
+.right_container_bottom .content_R_bottom_picture {
+    border: 1px solid #e5e4e2;
+}
+
+.right_container_bottom .detail_Article h2 {
+    margin: 20px auto 20px;
+    font-weight: 100;
+    color: #026798;
+    font-family: "microsoft yahei"
+}
+
+
+/* 文章字体 */
+
+.right_container_bottom .detail_Article p {
+    text-indent: 2em;
+    line-height: 28px;
+    color: #7a7a7a;
+    font-family: "microsoft yahei"
+}
+
+.right_container_bottom .detail_Article_standard {
+    margin-top: 28px;
+    font-size: 15px;
+    font-family: "microsoft yahei"
+}
+
+.right_container_bottom .detail_Article_standardOne {
+    color: #016697;
+}
+
+.right_container_bottom .detail_Article_standardTwo {
+    color: #7a7a7a;
+}
